@@ -1,0 +1,208 @@
+{
+    "products": [
+        {
+            "name": "Pro Gaming Mouse",
+            "price": "$59.99"
+        },
+        {
+            "name": "Mechanical Keyboard",
+            "price": "$120.00"
+        },
+        {
+            "name": "UltraWide Monitor",
+            "price": "$350.00"
+        }
+    ],
+    "testimonials": [
+        {
+            "user": "Ana K.",
+            "text": "Najboljša nakupovalna izkušnja do zdaj!"
+        },
+        {
+            "user": "Marko P.",
+            "text": "Zelo hitra dostava in kakovostni izdelki."
+        }
+    ],
+    "reviews": [
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-01-03",
+            "month_year": "Jan 2023"
+        },
+        {
+            "text": "Amazing quality, really impressed!",
+            "date": "2023-01-04",
+            "month_year": "Jan 2023"
+        },
+        {
+            "text": "The build quality is average for the price.",
+            "date": "2023-01-24",
+            "month_year": "Jan 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-02-13",
+            "month_year": "Feb 2023"
+        },
+        {
+            "text": "Amazing quality, really impressed!",
+            "date": "2023-02-19",
+            "month_year": "Feb 2023"
+        },
+        {
+            "text": "The build quality is average for the price.",
+            "date": "2023-02-24",
+            "month_year": "Feb 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-03-03",
+            "month_year": "Mar 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-03-25",
+            "month_year": "Mar 2023"
+        },
+        {
+            "text": "Amazing quality, really impressed!",
+            "date": "2023-03-24",
+            "month_year": "Mar 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-04-12",
+            "month_year": "Apr 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-04-19",
+            "month_year": "Apr 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-04-26",
+            "month_year": "Apr 2023"
+        },
+        {
+            "text": "The build quality is average for the price.",
+            "date": "2023-05-27",
+            "month_year": "May 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-05-07",
+            "month_year": "May 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-05-27",
+            "month_year": "May 2023"
+        },
+        {
+            "text": "Amazing quality, really impressed!",
+            "date": "2023-06-28",
+            "month_year": "Jun 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-06-09",
+            "month_year": "Jun 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-06-23",
+            "month_year": "Jun 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-07-10",
+            "month_year": "Jul 2023"
+        },
+        {
+            "text": "Amazing quality, really impressed!",
+            "date": "2023-07-03",
+            "month_year": "Jul 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-07-08",
+            "month_year": "Jul 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-08-24",
+            "month_year": "Aug 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-08-02",
+            "month_year": "Aug 2023"
+        },
+        {
+            "text": "The build quality is average for the price.",
+            "date": "2023-08-17",
+            "month_year": "Aug 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-09-02",
+            "month_year": "Sep 2023"
+        },
+        {
+            "text": "Excellent customer support and product.",
+            "date": "2023-09-10",
+            "month_year": "Sep 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-09-28",
+            "month_year": "Sep 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-10-05",
+            "month_year": "Oct 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-10-09",
+            "month_year": "Oct 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-10-13",
+            "month_year": "Oct 2023"
+        },
+        {
+            "text": "The build quality is average for the price.",
+            "date": "2023-11-23",
+            "month_year": "Nov 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-11-17",
+            "month_year": "Nov 2023"
+        },
+        {
+            "text": "The build quality is average for the price.",
+            "date": "2023-11-13",
+            "month_year": "Nov 2023"
+        },
+        {
+            "text": "Disappointed with the shipping time.",
+            "date": "2023-12-07",
+            "month_year": "Dec 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-12-22",
+            "month_year": "Dec 2023"
+        },
+        {
+            "text": "Simply the best on the market!",
+            "date": "2023-12-11",
+            "month_year": "Dec 2023"
+        }
+    ]
+}

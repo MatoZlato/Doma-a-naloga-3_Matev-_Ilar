@@ -6,9 +6,9 @@ import json
 st.set_page_config(page_title="Brand Monitor 2023", layout="wide")
 
 # Naložimo model za sentiment (Hugging Face)
-@st.cache_resource
+#@st.cache_resource
 #def load_model():
-    return pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+#    return pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
 #sentiment_model = load_model()
 
@@ -58,4 +58,5 @@ elif izbira == "Reviews":
         #st.metric("Povprečno zaupanje modela (Confidence)", f"{avg_conf*100:.1f}%")
     else:
         st.warning("Ni podatkov za ta mesec.")
+
 

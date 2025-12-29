@@ -1,16 +1,16 @@
 import streamlit as st
 import pandas as pd
 import json
-from transformers import pipeline
+#from transformers import pipeline
 
 st.set_page_config(page_title="Brand Monitor 2023", layout="wide")
 
 # Naložimo model za sentiment (Hugging Face)
 @st.cache_resource
-def load_model():
+#def load_model():
     return pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
-sentiment_model = load_model()
+#sentiment_model = load_model()
 
 # Nalaganje podatkov
 with open('data.json', 'r', encoding='utf-8') as f:
@@ -43,18 +43,19 @@ elif izbira == "Reviews":
     
     if not filtered_df.empty:
         # AI Analiza
-        results = sentiment_model(filtered_df['text'].tolist())
-        filtered_df['Sentiment'] = [r['label'] for r in results]
-        filtered_df['Confidence'] = [round(r['score'], 2) for r in results]
+        #results = sentiment_model(filtered_df['text'].tolist())
+        #filtered_df['Sentiment'] = [r['label'] for r in results]
+        #filtered_df['Confidence'] = [round(r['score'], 2) for r in results]
         
         st.write(filtered_df)
         
         # Grafikon
-        st.subheader(f"Statistika za {izbran_mesec}")
-        sentiment_counts = filtered_df['Sentiment'].value_counts()
-        st.bar_chart(sentiment_counts)
+        #st.subheader(f"Statistika za {izbran_mesec}")
+        #sentiment_counts = filtered_df['Sentiment'].value_counts()
+        #st.bar_chart(sentiment_counts)
         
-        avg_conf = filtered_df['Confidence'].mean()
-        st.metric("Povprečno zaupanje modela (Confidence)", f"{avg_conf*100:.1f}%")
+        #avg_conf = filtered_df['Confidence'].mean()
+        #st.metric("Povprečno zaupanje modela (Confidence)", f"{avg_conf*100:.1f}%")
     else:
         st.warning("Ni podatkov za ta mesec.")
+
